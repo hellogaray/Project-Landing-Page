@@ -1,9 +1,9 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Body styles */
 body {
-    font-family: Roboto, sans-serif; /* Set default font family */
+    font-family: "Montserrat", sans-serif;
     margin: 0;
     display: flex; 
     flex-direction: column; /* Stack children vertically */
@@ -89,13 +89,15 @@ header {
 }
 
 /* Button styles */
-button {
+.button {
     background-color: #3882f6;
     width: 100px;
     color: #e5e7eb;
     border: none;
     border-radius: 8px;
     padding: 10px;
+    text-align: center;
+    justify-items: center;
 }
 
 /* Main section */
@@ -117,8 +119,12 @@ button {
     flex-wrap: wrap; /* Wrap items to next line */
     justify-content: space-evenly;
     align-items: center;
-    gap: 1px;
+    gap: 20px;
     padding: 40px;
+}
+.subtext-text {
+    font-size: 12px;
+    padding: 10px;
 }
 
 .subtext {
@@ -126,16 +132,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 160px;
     text-align: center;
-}
-
-.square {
-    width: 160px;
-    height: 160px;
-    border-style: solid;
-    border-color: #3882f6;;
-    border-radius: 8px;
 }
 
 /* Testimonial section */
@@ -170,7 +167,7 @@ button {
     font-size: 26px;
 }
 
-.container button {
+.container .button {
     border-style: solid; 
     border-color: #e5e7eb;
 }
