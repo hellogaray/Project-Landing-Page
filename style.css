@@ -1,54 +1,57 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;800&display=swap');
 
+/* Body styles */
 body {
-    font-family: Roboto, sans-serif;
-    height: 100vh;
+    font-family: Roboto, sans-serif; /* Set default font family */
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    flex-direction: column; /* Stack children vertically */
+    min-height: 100vh; /* Minimum height to fill viewport */
 }
 
+/* Link styles */
 a {
     color:#f9faf8;
-    text-decoration: none;
+    text-decoration: none; /* Remove link underline */
 }
 
+/* Navigation styles */
 ul {
     display: flex;
-    list-style: none;
+    list-style: none; /* Remove list bullets */
     margin: 0;
     padding: 0;
-    gap: 16px
+    gap: 16px;
 }
 
-.logo {
+.nav-logo {
     font-size: 24px;
 }
 
-.header, .footer {
+/* Header and footer layout */
+header, footer {
     display: flex;
-    padding: 1rem 12rem;
+    padding: 2rem 12rem;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
+header {
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
+/* Main content area */
 .content {
-    flex: 1;
+    flex: 1; /* Allow content to expand */
 }
 
+/* Section padding */
 .hero, .main, .container-quote, .container {
-    padding: 8rem 12rem;
+    padding: 6rem 12rem;
 }
 
+/* Hero section */
 .hero {
     display: flex;
-    flex-direction: row;
-    gap: 16px
 }
 
 .title {
@@ -58,7 +61,7 @@ ul {
     align-items: left;
 }
 
-.hero-main{
+.hero-main {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
@@ -66,7 +69,7 @@ ul {
 
 .hero-secondary {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
 }
 
 .image {
@@ -79,24 +82,26 @@ ul {
     text-align: center;
 }
 
-.hero, .header, .footer {
+/* Section background and text color */
+.hero, header, footer {
     background-color: #1f2937;
     color: #f9faf8;
 }
 
+/* Button styles */
 button {
     background-color: #3882f6;
     width: 100px;
     color: #e5e7eb;
-	border: none;
+    border: none;
     border-radius: 8px;
-	padding: 10px;
+    padding: 10px;
 }
 
+/* Main section */
 .main {
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .random {
@@ -104,12 +109,12 @@ button {
     font-weight: 800;
     color: #1f2937;
     text-align: center;
-  
 }
 
+/* Image gallery styles */
 .images {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Wrap items to next line */
     justify-content: space-evenly;
     align-items: center;
     gap: 1px;
@@ -133,6 +138,7 @@ button {
     border-radius: 8px;
 }
 
+/* Testimonial section */
 .container-quote {
     background-color: #e5e7eb;
     color: #1f2937;
@@ -148,10 +154,27 @@ button {
     text-align: right;
 }
 
-.container {
-
+/* Call to action section */
+.inner-container {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px; /* Changed padding from 20px to 40px */
+    display: flex;
+    flex-direction: row;
+    color: #e5e7eb;
+    justify-content: space-evenly;
 }
 
-.footer {
+.action {
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.container button {
+    border-style: solid; 
+    border-color: #e5e7eb;
+}
+
+footer {
     justify-content: center;
 }
