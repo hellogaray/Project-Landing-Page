@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;800&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
@@ -41,8 +41,8 @@ ul {
     flex: 1;
 }
 
-.hero, .main, .container {
-    padding: 1.5rem 12rem;
+.hero, .main, .container-quote, .container {
+    padding: 8rem 12rem;
 }
 
 .hero {
@@ -94,11 +94,9 @@ button {
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    text-align: center;
+
 }
 
 .random {
@@ -106,21 +104,52 @@ button {
     font-weight: 800;
     color: #1f2937;
     text-align: center;
-}
-
-.subtext {
-
-}
-
-.square {
-    width: 100px;
-    height: 100px;
-    border-style: solid;
-    border-color: #3882f6;;
+  
 }
 
 .images {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1px;
+    padding: 40px;
+}
+
+.subtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    text-align: center;
+}
+
+.square {
+    width: 160px;
+    height: 160px;
+    border-style: solid;
+    border-color: #3882f6;;
+    border-radius: 8px;
+}
+
+.container-quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+}
+
+.container {
+
 }
 
 .footer {
