@@ -1,5 +1,6 @@
 # Project-Landing-Page
 The Odin Project - Landing Page Project
+
 Project **DOES NOT** include a responsive design.
 
 ## Introduction
