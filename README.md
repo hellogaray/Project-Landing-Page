@@ -1,6 +1,5 @@
 # Project-Landing-Page
 ## The Odin Project - Landing Page Project
-# Project: Web Page Creation
 
 ## Introduction
 
