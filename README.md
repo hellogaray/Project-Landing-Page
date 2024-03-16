@@ -1,19 +1,26 @@
 # Project-Landing-Page
 The Odin Project - Landing Page Project
 
-Project **DOES NOT** include a responsive design.
+**Note:** Project does not include a responsive design.
 
-## Introduction
+## Assignment
 
-For this project, you'll be creating an entire web page based on a provided design. The design includes two images: one showcasing the complete website and the other detailing fonts and colors used.
-
-Don't hesitate to use Google or refer back to previous lessons if needed. Professional developers frequently use online resources for reference. While you're expected to have acquired certain skills, it's not necessary to have everything memorized.
-
-The provided design may include some minor details you haven't encountered yet. Don't worry; these can be easily searched for online (e.g., CSS rounded corners).
-
-Your goal is to replicate the design as closely as possible, but don't stress about achieving pixel-perfection. Focus on getting the various elements positioned relative to each other. Exact measurements aren't crucial; approximate values are acceptable.
-
-Feel free to personalize the content by substituting your own images and text. The provided images contain dummy content, but you're encouraged to create a unique business concept and tailor the page accordingly. Experiment with colors, fonts, and other elements to make it your own.
+- **Download Design Images:** 
+  - [Image One (Full Design)](link-to-image-one)
+  - [Image Two (Color and Fonts)](link-to-image-two)
+- **Key Points:**
+  - Use Roboto font.
+  - Hero text is the statement at the top of the page.
+- **Approach:**
+  - Take it one section at a time.
+  - Focus on HTML first, then CSS.
+  - Utilize only one stylesheet.
+  - Reference flexbox exercises if needed.
+  - Mobile responsiveness is not required.
+- **Commit Early & Often:**
+  - Reference the Commit Message lesson for guidance.
+- **Push to GitHub:**
+  - Don’t forget to push your completed project to GitHub!
 
 ## Instructions
 
