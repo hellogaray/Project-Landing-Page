@@ -1,5 +1,20 @@
-# Project-Landing-Page
+<div align="center">
+  <h1>Project-Landing-Page</h1>
+  <p>The Odin Project - Landing Page Project</p>
+  <p>
+    <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5 Icon" width="40" height="40"/>
+    <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3 Icon" width="40" height="40"/>
+    <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript Icon" width="40" height="40"/>
+  </p>
+</div>
+
+
+---
 The Odin Project - Landing Page Project
+
+![GitHub last commit](https://img.shields.io/github/last-commit/hellogaray/Project-Landing-Page)
+![GitHub repo size](https://img.shields.io/github/repo-size/hellogaray/Project-Landing-Page)
+![GitHub](https://img.shields.io/github/license/hellogaray/Project-Landing-Page)
 
 **Note:** Project does not include a responsive design.
 
@@ -34,10 +49,10 @@ The Odin Project - Landing Page Project
 
 ![Original Version](./images/original.png)
 
-The image above shows the original version of the Landing Page Project that fulfills all the requirements for the assigment, without any extras added.
+The image above shows the original version of the Landing Page Project that fulfills all the requirements for the assignment, without any extras added.
 
 ## Final Version
 
-![Original Version](./images/final.png)
+![Final Version](./images/final.png)
 
-The image above shows the final version of the Landing Page Project which has been modified to use actual images instead of placeholder, has a theme (a Spotify Playlist recomendation website).
+The image above shows the final version of the Landing Page Project which has been modified to use actual images instead of placeholders, has a theme (a Spotify Playlist recommendation website).
