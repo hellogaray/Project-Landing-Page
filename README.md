@@ -30,5 +30,14 @@ The Odin Project - Landing Page Project
 4. Substitute placeholder content with your own images and text.
 5. Feel free to customize colors, fonts, and other design elements to personalize the page.
 
-Happy coding!
+## Original Version
 
+![Original Version](./images/original.png)
+
+The image above shows the original version of the Landing Page Project that fulfills all the requirements for the assigment, without any extras added.
+
+## Final Version
+
+![Original Version](./images/final.png)
+
+The image above shows the final version of the Landing Page Project which has been modified to use actual images instead of placeholder, has a theme (a Spotify Playlist recomendation website).
